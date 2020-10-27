@@ -1,4 +1,4 @@
-FROM php:7.3.14-fpm
+FROM php:7.3.23-fpm
 MAINTAINER Mischa Braam "mischa@weprovide.com"
 
 RUN apt-get -yq update
