@@ -48,5 +48,5 @@ RUN docker-php-ext-install \
 RUN pecl install -f libsodium
 
 # Install composer
-RUN curl --silent --show-error https://getcomposer.org/installer | php
+RUN curl --silent --show-error https://getcomposer.org/installer | php -- --version=1.10.16
 RUN mv composer.phar /usr/local/bin/composer
